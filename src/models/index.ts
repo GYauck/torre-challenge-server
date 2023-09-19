@@ -1,3 +1,5 @@
 import User from "./User";
+import Favourite from "./Favourites";
 
-export default { User };
+
+export default { User, Favourite };
