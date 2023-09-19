@@ -9,10 +9,10 @@ import {
   
   const router = Router();
   
-  router.get("/getFavorites", validateUser, get_favourites);
+  router.get("/getFavourites", validateUser, get_favourites);
   
-  router.post("/addFavorite", validateUser, add_favourite);
+  router.post("/addFavourite", validateUser, add_favourite);
   
-  router.post("/removeFavorite/:favoriteId", validateUser, remove_favourite);
+  router.post("/removeFavourite/:favouriteId", validateUser, remove_favourite);
   
   export default router;

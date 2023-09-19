@@ -6,7 +6,6 @@ export interface FavouriteAttributes extends Document {
     name: string;
     picture: string;
     professionalHeadline: string;
-    username: string;
     verified: boolean;
   }
 
@@ -29,10 +28,6 @@ const favouriteSchema = new Schema<FavouriteAttributes>({
     required: false,
   },
   professionalHeadline: {
-    type: String,
-    required: false,
-  },
-  username: {
     type: String,
     required: false,
   },

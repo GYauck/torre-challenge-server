@@ -38,7 +38,7 @@ const add_favourite = async (req: userRequest, res: Response) => {
 
     const { ggId, name, picture, professionalHeadline, username, verified } =
       req.body;
-
+    console.log(name)
     const newFavourite = new Favourite({
       user: userId,
       ggId,
