@@ -4,7 +4,7 @@
 ); */
 
 const corsConfig = {
-  origin : "http://localhost:5173",
+  origin : "https://torre-challenge-pi.vercel.app",
   credentials: true,
   optionSuccessStatus: 200,
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE, OPTIONS",
